@@ -1,0 +1,21 @@
+2023-09-24 21:53:43,367 - INFO - Synchronization started - Source: source, Replica: replica Interval: 5
+2023-09-24 21:53:43,367 - INFO - Copying new file: source\0.txt
+2023-09-24 21:53:43,368 - INFO - Copying new file: source\1.txt
+2023-09-24 21:53:43,369 - INFO - Created directory: replica\a
+2023-09-24 21:53:43,370 - INFO - Copying new file: source\a\0.txt
+2023-09-24 21:53:43,371 - INFO - Copying new file: source\a\a1.txt
+2023-09-24 21:53:43,372 - INFO - Created directory: replica\a\b
+2023-09-24 21:53:43,372 - INFO - Copying new file: source\a\b\0.txt
+2023-09-24 21:53:43,373 - INFO - Copying new file: source\a\b\b1.txt
+2023-09-24 21:53:43,374 - INFO - Created directory: replica\x
+2023-09-24 21:53:43,375 - INFO - Copying new file: source\x\0.txt
+2023-09-24 21:53:43,376 - INFO - Copying new file: source\x\x1.txt
+2023-09-24 21:53:43,378 - INFO - Created directory: replica\x\y
+2023-09-24 21:53:43,378 - INFO - Copying new file: source\x\y\0.txt
+2023-09-24 21:53:43,379 - INFO - Copying new file: source\x\y\y1.txt
+2023-09-24 21:54:03,423 - INFO - Updating file: replica\x\x1.txt
+2023-09-24 21:54:38,503 - INFO - Updating file: replica\x\x1.txt
+2023-09-24 21:54:48,534 - INFO - Updating file: replica\1.txt
+2023-09-24 21:55:08,592 - INFO - Removing file: replica\0.txt
+2023-09-24 21:55:08,595 - INFO - Removing file: replica\x\0.txt
+2023-09-24 21:55:08,596 - INFO - Removing file: replica\x\y\0.txt
